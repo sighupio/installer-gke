@@ -1,8 +1,8 @@
 <!-- BEGIN_TF_DOCS -->
 
-# Fury GKE Installer - GKE module
+# GKE Installer - GKE module
 
-<!-- <KFD-DOCS> -->
+<!-- <SD-DOCS> -->
 
 ## Requirements
 
@@ -147,5 +147,5 @@ module "my_cluster" {
 }
 ```
 
-<!-- </KFD-DOCS> -->
+<!-- </SD-DOCS> -->
 <!-- END_TF_DOCS -->

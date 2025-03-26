@@ -1,8 +1,8 @@
 <!-- BEGIN_TF_DOCS -->
 
-# Fury GKE Installer - vpn module
+# GKE Installer - vpn module
 
-<!-- <KFD-DOCS> -->
+<!-- <SD-DOCS> -->
 
 ## Requirements
 
@@ -84,5 +84,5 @@ module "vpn" {
 }
 ```
 
-<!-- </KFD-DOCS> -->
+<!-- </SD-DOCS> -->
 <!-- END_TF_DOCS -->

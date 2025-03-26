@@ -1,6 +1,6 @@
-# Fury GKE Installer Example
+# GKE Installer Example
 
-This folder contains working examples of the terraform modules provided by this Fury Installer.
+This folder contains working examples of the terraform modules provided by this GKE Installer.
 
 In order to test them, you follow the instructions below.
 Note all comments starting with `TASK: ` require you to run some manual action on your computer

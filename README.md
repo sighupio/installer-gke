@@ -1,17 +1,21 @@
-<h1>
-    <img src="./docs/assets/fury_installer.png?raw=true" align="left" width="105" style="margin-right: 15px"/>
-    Fury GKE Installer
+<h1 align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sighupio/distribution/refs/heads/main/docs/assets/white-logo.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sighupio/distribution/refs/heads/main/docs/assets/black-logo.png">
+  <img alt="Shows a black logo in light color mode and a white one in dark color mode." src="https://raw.githubusercontent.com/sighupio/distribution/refs/heads/main/docs/assets/white-logo.png">
+</picture><br/>
+  GKE Installer
 </h1>
 
-![Release](https://img.shields.io/github/v/release/sighupio/fury-gke-installer?label=Latest%20Release)
-![License](https://img.shields.io/github/license/sighupio/fury-gke-installer?label=License)
+![Release](https://img.shields.io/github/v/release/sighupio/installer-gke?label=Latest%20Release)
+![License](https://img.shields.io/github/license/sighupio/installer-gke?label=License)
 [![Slack](https://img.shields.io/badge/slack-@kubernetes/fury-yellow.svg?logo=slack&label=Slack)](https://kubernetes.slack.com/archives/C0154HYTAQH)
 
-<!-- <KFD-DOCS> -->
+<!-- <SD-DOCS> -->
 
-**Fury GKE Installer** deploys a production-grade Kubernetes Fury cluster based on Google Kubernetes Engine (GKE).
+**GKE Installer** deploys a production-grade SIGHUP Distribution cluster based on Google Kubernetes Engine (GKE).
 
-If you are new to Kubernetes Fury please refer to the [official documentation][kfd-docs] on how to get started.
+If you are new to SIGHUP Distribution please refer to the [official documentation][sd-docs] on how to get started.
 
 ## Modules
 
@@ -67,21 +71,19 @@ To create the cluster via the installers:
 
 Please refer to each module documentation and the [examples](examples/) folder for more details.
 
-> You can follow the [Fury on GKE quick start guide][fury-gke-quickstart] for a more detailed walkthrough
-
 <!-- Links -->
 
-[vpc-module]: https://github.com/sighupio/fury-gke-installer/tree/master/modules/vpc
-[vpn-module]: https://github.com/sighupio/fury-gke-installer/tree/master/modules/vpn
-[gke-module]: https://github.com/sighupio/fury-gke-installer/tree/master/modules/gke
-[kfd-docs]: https://docs.kubernetesfury.com/docs/distribution/
+[vpc-module]: https://github.com/sighupio/installer-gke/tree/master/modules/vpc
+[vpn-module]: https://github.com/sighupio/installer-gke/tree/master/modules/vpn
+[gke-module]: https://github.com/sighupio/installer-gke/tree/master/modules/gke
+[sd-docs]: https://docs.kubernetesfury.com/docs/distribution/
 
 [furyagent]: https://github.com/sighupio/furyagent
 [tunnelblick]: https://tunnelblick.net/downloads.html
 [openvpn-connect]: https://openvpn.net/vpn-client/
-[fury-gke-quickstart]: https://github.com/sighupio/fury-getting-started/blob/main/legacy/fury-on-gke/
 
-<!-- </KFD-DOCS> -->
+
+<!-- </SD-DOCS> -->
 <!-- <FOOTER> -->
 
 ## Contributing

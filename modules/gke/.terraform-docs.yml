@@ -15,9 +15,9 @@ sections:
 
 content: |-
 
-  # Fury GKE Installer - GKE module
+  # GKE Installer - GKE module
 
-  <!-- <KFD-DOCS> -->
+  <!-- <SD-DOCS> -->
 
   {{ .Requirements }}
 
@@ -33,7 +33,7 @@ content: |-
   {{ include "../../examples/gke/main.tf" }}
   ```
 
-  <!-- </KFD-DOCS> -->
+  <!-- </SD-DOCS> -->
 
 output:
   file: "README.md"
